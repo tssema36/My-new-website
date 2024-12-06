@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Group x Website </title>
+	<!--The title tag makes the words Groupx website appear in the search bar of the webpage-->
+	<link href="style.css"rel="stylesheet">
+	<!--This links my stylesheet ith my style.css file-->
+	
+	<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="CHILD.jpg" alt="picture of a child" width="32" height="32">
+	<!--The onmouseover DOM I have used simply means when i hover my curser on the image it increases in size and when the curser is removed the image returns to its normal size-->
+	<script>
+	function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
+<!--I manipulated this code from W3 schools-->
+	</script>
+  </head>
+  <body>
+  <!--I used my bootstrap knowledge from week 4 and manipul;ated it to get what I want for my website-->
+    <div class="container">
+		<div class="row">
+			<ul class="nav"><!--nav tag-->
+				<li class="nav-item">
+					<a class="nav-link active red" aria-current="page" href="index.html">About</a>
+					<!--I edited this code from Emer as we used it in class to display a Home page in my index.html on my webpage-->
+				</li>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="page2.html">page2</a>
+					<!--This links both my pages the first page and second on my about webpage-->
+				</li>
+			</ul>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<img src="CHILD.jpg"alt="picture of a child">
+				<!--An img src tag is used to display images on the webpage-->
+			</div>
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-3">
+				<h1>POVERTY </h1>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<p>On this web page we shall look at the two main types of poverty these are Absolute poverty and Relative poverty.
+				<br>
+				-Absolute poverty is when a person can't even afford the basic needs such as food or shelter and many others this is the worst type of poverty as a person can't survive 
+				<br>
+				-Relative poverty is simply the type of poverty where a person's average income is relatively lower than the rest of the general population 
+				<br>
+				This isn't the worst type of poverty as a person can afford the essential basic needs but just has a lower standards of living compared to the rest of the population.</p>
+				
+			</div> 
+			<div class="col-md-6">
+				<img src="image.jpg" alt="picture of a poverty trap">
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="health-care.jpg"alt="picture to show free health care">
+			</div>
+			<br>
+			<div class="col-md-6">
+				<p> Under the different types of poverty we have so many examples of poverty such as;
+				<br>
+				-The luck of shelter
+				<br>
+				-Hunger
+				<br>
+				-Being sick and not being able to see a doctor 
+				<br>
+				-Lack of access to clean and safe water for both drinking and otrher activities 
+				<br>
+				The page has diagrams to show safe water and access to healthcare 
+				<br>
+				The webpage also has a diagram to ilustrate a poverty trap which all leads to low incomes</p>
+			</div>
+			<div class="row">
+			<div class="col-md-6">
+			</div> 
+			<div class="col-md-6">
+				<img src="water.jpg" alt="picture of safe water">
+			</div>
+		</div>
+		</div>	
+  </body>
+  <br>
+  <footer>Timothy Andrew Semafumu (Editor)</footer>
+</html>
